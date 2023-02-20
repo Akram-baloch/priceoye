@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #20202010;
+    font-family: arial;
+}
+
+header {
+    background-color: #48afff;
+
+    /* background-color: red; */
+    padding: 20px;
+}
+
+.header-icon img {
+    width: 150px;
+}
+
+.head-main {
+    background-color: #48afff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head-search {
+    width: 450px;
+}
+
+.head-search input {
+    width: 350px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.head-search .fa-microphone {
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    color: #48afff;
+}
+.head-login{
+    width: 190px;
+    margin-top: 3px;
+}
+
+.head-login button {
+    cursor: pointer;
+    width: 85px;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+.head-login .btn-1{
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #48afff;
+}
+.head-login .btn-2{
+    color: #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #48afff;
+}
+.catig-main{
+    display: flex;
+    justify-content: center;
+}
+.catig-content{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.catig-content img{
+    width: 48px;
+    margin: 8px;
+
+}
+.catig-content P{
+    font-size: 15PX;
+}
+.img1{
+    text-align: center;
+}
+.bg-img{
+    /* background-color:#20202010 ; */
+    padding-top: 10px;
+}
+.bg-img img{
+    width: 100%;
+    
+}
+.head{
+    /* display: flex; */
+    padding: 20px 0px;
+}
+.head h2{
+    font-size: 18px;
+    margin-left:90px ;
+}
+.main-card{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-main-2{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-content{
+    margin: 10PX;
+    height: 250px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.card-content img{
+    width: 75%;
+}
+.head-price{
+    padding: 50px 0px;
+}
+.head-price h2{
+    margin-left: 90px;
+    font-size: 18px;
+}
+.price-main{
+    display: flex;
+    justify-content: center;
+}
+
+.price-content{
+    width: 1200px;
+
+}
+.price-content button{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    width: 280px;
+    margin: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff348;
+    padding: 20px 10px;
+}
+.price-content button:hover{
+    background-color: #48afff;
+    color: #fff;
+}
+.brand-head{
+    padding: 50px 0px;
+}
+.brand-head h2{
+    font-size: 18px;
+    margin-left: 90px;
+}
+.brand-main{
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+.brand-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+
+}
+.brand-content  img{
+    width: 70px;
+}
+.brand{
+    text-align: center;
+}
+.foot-main{
+    padding: 30px 0px;
+    background-color: #48afff;
+}
+.foot-main img{
+    width: 140px;
+    
+}
+.foot-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.foot-content{
+
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+.foot-payment{
+    color: #fff;
+}
+.foot-payment img{
+    width: 280px;
+    margin-top: 30px;
+}
+.social-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 750px;
+}
+.foot-social{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    background-color: #48afff;
+    color: #fff;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.social .fa{
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color:#48afff;
+}

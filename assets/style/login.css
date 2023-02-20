@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #20202010;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #48afff;
+    padding: 20px;
+}
+
+.header-icon img {
+    width: 150px;
+}
+
+.head-main {
+    background-color: #48afff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head-search {
+    width: 450px;
+}
+
+.head-search input {
+    width: 350px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.head-search .fa-microphone {
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    color: #48afff;
+}
+
+.head-login {
+    width: 190px;
+    margin-top: 3px;
+}
+
+.head-login button {
+    width: 85px;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.head-login .btn-1 {
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #48afff;
+}
+
+.head-login .btn-2 {
+    background-color: #48afff;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.login-main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.login-content{
+    padding-bottom: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 420PX;
+}
+
+.login-content p{
+    color: rgb(167, 167, 167);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+.login-content h2{
+    margin-top: 20px;
+}
+.login-content input{
+    width: 420px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: 1px solid #48afff;
+    outline: none;
+
+}
+.login-content button{
+    background-color: #48afff;
+    color: #fff;
+    font-weight: bold;
+    width:420px;
+    padding: 12px 5px;
+    border-radius: 5px;
+    border: none;
+
+}

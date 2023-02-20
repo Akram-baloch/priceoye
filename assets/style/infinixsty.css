@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #20202010;
+    font-family: arial;
+}
+
+header {
+    background-color: #48afff;
+    padding: 20px;
+}
+
+.header-icon img {
+    width: 150px;
+}
+
+.head-main {
+    background-color: #48afff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head-search {
+    width: 450px;
+}
+
+.head-search input {
+    width: 350px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.head-search .fa-microphone {
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    color: #48afff;
+}
+
+.head-login {
+    width: 190px;
+    margin-top: 3px;
+}
+
+.head-login button {
+    width: 85px;
+    font-size: 15px;
+    padding: 10px 15px;
+    /* border: none; */
+}
+
+.head-login .btn-1 {
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #48afff;
+}
+
+.head-login .btn-2 {
+    background-color: #48afff;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.main-prdt {
+    background-color: #fff;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom:70px ;
+
+    margin-top: 20px;
+}
+
+.main-2 {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.conent-prdt {
+    height: 350px;
+    margin-right: 20px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    border: 2px solid rgb(206, 205, 205);
+}
+
+.main-prdt img {
+    width: 350px;
+}
+
+.prdt-price {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.rating .fa {
+    color: #FDCC0D;
+}
+
+.color {
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: grey;
+}
+
+.color img {
+    width: 70px;
+}
+
+.color .cont {
+    padding: 8px;
+    border-radius: 5PX;
+    text-align: center;
+    border: 1px solid rgb(206, 205, 205);
+
+}
+
+.storage button {
+    color: grey;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(206, 205, 205);
+
+}
+
+.calender {
+    /* background-color: #FDCC0D; */
+    border: 2px solid rgb(206, 205, 205);
+    border-radius: 8px;
+    padding: 8px;
+
+
+    display: flex;
+
+}
+
+.cont-calen {
+    margin: 10px;
+}
+
+.calender img {
+    width: 35px;
+}
+
+.guarante {
+    display: flex;
+    background-color: rgb(235, 233, 233);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.guarante img {
+    width: 35px;
+
+}
+
+.cont-granat {
+    margin: 10px;
+
+}
+
+.cart-btn {
+    padding-top: 10px;
+    /* background-color: red; */
+
+}
+
+.cart-btn button {
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+}
+
+.cart-btn .btn-1 {
+    background-color: #f88b2a;
+}
+
+.cart-btn .btn-2 {
+    background-color: #1599ff;
+}
+.container-main{
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.container-main img{
+    width: 60px;
+}
+.container-main .product-bullet{
+    text-align: center;
+}
+.foot-main{
+    padding: 30px 0px;
+    background-color: #48afff;
+}
+.foot-main img{
+    width: 140px;
+    
+}
+.foot-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.foot-content{
+
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+.foot-payment{
+    color: #fff;
+}
+.foot-payment img{
+    width: 280px;
+    margin-top: 30px;
+}
+.social-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 750px;
+}
+.foot-social{
+    padding: 20px 0px;
+    background-color: #48afff;
+    color: #fff;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.social .fa{
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color:#48afff;
+}
